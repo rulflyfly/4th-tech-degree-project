@@ -4,20 +4,20 @@
 
 .img {
   &-avatar {
+    @extend %max-width;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: $gutter;
-    max-width: $taken-place; 
     max-height: $taken-place;
   }
   
   &-frame {
+    @extend %max-width;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: $gutter;
-    max-width: $taken-place;
     padding: 13px;
     border: 1px solid #ccc;
   }

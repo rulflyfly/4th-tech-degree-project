@@ -30,10 +30,10 @@
   }
   
   [class^=col] {
+    @extend %border-r; 
     margin-top: $gutter;
     min-height: 25px;
     padding: $gutter;
-    border-radius: $border-radius;
     @include mq ($brk) {
       display: flex;
       justify-content: center;

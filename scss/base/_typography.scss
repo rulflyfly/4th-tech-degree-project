@@ -38,12 +38,12 @@
   }
   
   .blockquote {
+    @extend %border-r; 
     font-size: 1.5em;
     font-weight: $normal;
     font-style: italic;
     margin-left: $blockquote-gutter-left;
     padding-left: $blockquote-gutter-left;
     border-left: 8px solid $color-primary ;
-    border-radius: $border-radius;
   }
   

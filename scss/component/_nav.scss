@@ -13,8 +13,8 @@
       align-items: center;
     }
     &-link {
+      @extend %border-r;      
       text-align: center;
-      border-radius: $border-radius;
       padding: $gutter 0;
       display: block;
       width: $taken-place;

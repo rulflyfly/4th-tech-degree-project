@@ -3,13 +3,13 @@
 /* ============================================= */
 
 .btn {
+    @extend %border-r;
     margin-top: 15px;
     width: $taken-place;
     color: #fff;
     border: none;
     padding: $gutter 0;
     text-transform: uppercase;
-    border-radius: $border-radius;
     transition: background .5s ease-in;
     @include mq ($brk) {
       padding: 10px 30px;

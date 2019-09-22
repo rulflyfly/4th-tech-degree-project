@@ -1,0 +1,37 @@
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+
+.nav {
+    padding-left: 0;
+    flex-basis: $taken-place;
+    display: flex;
+    flex-direction: column;
+    @include mq ($brk) {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    &-link {
+      text-align: center;
+      border-radius: $border-radius;
+      padding: $gutter 0;
+      display: block;
+      width: $taken-place;
+      transition: background-color .2s ease-in-out, 
+                  color .2s ease-in-out;
+      &:hover {
+          color: #fff;
+          background-color: $color-primary;
+        }
+      @include mq ($brk) {
+        flex-basis: 100px;
+      }
+    }
+    
+  }
+  
+  
+  
+ 
+  

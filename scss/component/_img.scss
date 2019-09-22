@@ -1,0 +1,39 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img {
+  &-avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $gutter;
+    max-width: $taken-place; 
+    max-height: $taken-place;
+  }
+  
+  &-frame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $gutter;
+    max-width: $taken-place;
+    padding: 13px;
+    border: 1px solid #ccc;
+  }
+  
+  &-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+
+.logo {
+  @include mq ($brk) {
+  margin-left: initial;
+  margin-right: initial;
+ }
+}

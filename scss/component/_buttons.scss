@@ -1,0 +1,48 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: $taken-place;
+    color: #fff;
+    border: none;
+    padding: $gutter 0;
+    text-transform: uppercase;
+    border-radius: $border-radius;
+    transition: background .5s ease-in;
+    @include mq ($brk) {
+      padding: 10px 30px;
+    }    
+  }
+  
+  .btn + .btn {
+    @include mq ($brk) {
+    margin-left: 10px;
+    }
+  }
+
+  .default {
+    background-color: $default;
+    @include lighten ($default);
+  }
+  
+  .error {
+    background-color: $error;
+    @include lighten ($error);
+  }
+  
+  .info {
+    background-color: $info;
+    @include lighten ($info);
+  }
+  
+  .success {
+    background-color: $success;
+    @include lighten ($success);
+  }
+  
+  .warning {
+    background-color: $warning;
+    @include lighten ($warning);
+  }

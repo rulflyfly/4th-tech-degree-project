@@ -1,0 +1,45 @@
+/* ============================================= */
+/*              Color variables                  */
+/* ============================================= */
+
+//Main colors
+
+$color-text-primary     :     #777;
+$color-primary          :     #58e1c1; 
+$color-secondary        :     #51ddfc;
+
+//Button and grid pair colors
+
+$default        :      $color-secondary;
+$error          :      #e4757a;
+$info           :      #927bc1;
+$success        :      #63cc82;
+$warning        :      #fd7856;
+
+
+/* ============================================= */
+/*              Size variables                   */
+/* ============================================= */
+
+// Spacing
+
+$gutter                   :        10px;
+$blockquote-gutter-left   :        20px;
+$taken-place              :        100%;
+
+// Font-weight
+
+$normal      :        300;
+$bold        :        700;
+
+// Border
+
+$border-radius   :   5px;
+
+// Media query breakpoint
+
+$brk     :    '(min-width: 768px)';
+
+
+
+

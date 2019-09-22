@@ -1,0 +1,13 @@
+@mixin lighten ($color) {
+    &:hover {
+    background: lighten($color, 15%);
+    }
+}
+
+
+@mixin mq ($break-point) {
+    @media #{$break-point} {
+        @content;
+    }
+}
+
